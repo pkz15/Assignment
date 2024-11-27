@@ -44,11 +44,11 @@ public class ExtendReport {
         }
     }
 
-    // Optional: Clean up old report before starting new tests
+  
     public static void clearOldReport() {
         File reportFile = new File(reportPath);
         if (reportFile.exists()) {
-            reportFile.delete();  // Delete old report before starting fresh
+            reportFile.delete(); 
         }
     }
 }
