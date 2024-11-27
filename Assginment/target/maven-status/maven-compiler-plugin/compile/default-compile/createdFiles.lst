@@ -1,0 +1,6 @@
+Pages\BaseTest.class
+utils\BaseClass.class
+Pages\LoginPage.class
+Pages\CascadingDropdownPage.class
+Pages\DynamicTablePage.class
+utils\configReader.class
