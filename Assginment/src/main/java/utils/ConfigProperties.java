@@ -6,13 +6,13 @@ import java.util.Properties;
 
 public class ConfigProperties {
 
-    // Declare a static Properties object
+    
     public static Properties property;
 
-    // Path to the configuration file
+
     private static final String CONFIG_PATH = System.getProperty("user.dir") + "/" +"src/test/resources/config/config.properties";
 
-    // Method to initialize the Properties object
+   
     public static void initializePropertyFile() {
         property = new Properties();
 
